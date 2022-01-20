@@ -69,7 +69,7 @@ img:hover{
 .sidebar{
     display: flex;
     flex-direction: column;
-    width: 16rem;
+    width: 14rem;
     position: fixed;
     height: 100%;
     background: var(--grey-dark);
@@ -122,12 +122,17 @@ img:hover{
 }
 
 .sidebar-bottom img{
-    height: 0.2rem;
+    height:1.5rem;
+    margin-left: 20%;
 }
 
 .logo-sidebar{
     height: 2rem;
     padding-left: 1rem;
+}
+
+.sidebar-item-icon1, .sidebar-item-icon2 {
+    float: left;
 }
 
 @media (max-width:1100px){
@@ -162,7 +167,7 @@ img:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 16rem;
+    margin-left: 14rem;
     padding-left: 4rem;
     padding-right: 4rem;
     background: var(--white) ;
@@ -391,7 +396,7 @@ img:hover{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr; 
     grid-template-rows: 12rem 5rem; 
-    grid-gap:2rem;
+    grid-gap:1rem;
     min-height: 20rem;
     grid-template-areas: 
     "content-container3-showcase . ."
@@ -439,6 +444,7 @@ img:hover{
     width: calc(100% - 16px);
     display: flex;
 }
+
 .content-container4-item{
     flex-shrink: 1;
 }
@@ -470,6 +476,11 @@ img:hover{
     .content-container4 {
         max-height: 20rem;
         min-height: 20rem;
+    }
+    .content-container4-showcase{
+        flex-shrink: 0.5;
+        min-height: 18rem;
+        min-width: 5rem;
     }   
 }
 
@@ -565,7 +576,7 @@ img:hover{
     width: 100%;
     grid-template-columns: repeat(5,16fr);
     grid-template-rows: repeat(2,2fr);
-    grid-gap:0.8rem;
+    grid-gap:0.5rem;
     overflow:hidden;
 }
 .content-container7-showcase { 
