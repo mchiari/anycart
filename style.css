@@ -65,8 +65,6 @@ img:hover{
     background-color: var(--grey-light);
   }
 
-
-
 /*=================== SIDEBAR ================*/
 .sidebar{
     display: flex;
@@ -310,6 +308,7 @@ img:hover{
     padding:1rem;
     width: 100%;
     max-height: 20rem;
+    min-height: 15rem;
     grid-template-columns: repeat(5,16fr);
     grid-template-rows: repeat(2,16fr);
     grid-gap:0.8rem;
