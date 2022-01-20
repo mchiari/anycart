@@ -298,6 +298,13 @@ img:hover{
     }
 }
 
+@media(max-width:720px){
+    .content-container1 {
+    max-height: 20rem;
+    min-height: 20rem;
+    }   
+}
+
 
 
 /*=================== CONTAINER 2 ================*/
@@ -356,6 +363,8 @@ img:hover{
     }
     .content-container2{
         grid-template-columns: repeat(3,16fr);
+        min-height: 20px;
+        max-height: 20px;
     }
 }
 
@@ -398,6 +407,12 @@ img:hover{
     }
 }
 
+@media(max-width:720px){
+    .content-container3 {
+    max-height: 20rem;
+    min-height: 20rem;
+    }   
+}
 
 
 /*=================== CONTAINER 4 ================*/
@@ -440,6 +455,12 @@ img:hover{
 
 }
 
+@media(max-width:720px){
+    .content-container4 {
+    max-height: 20rem;
+    min-height: 20rem;
+    }   
+}
 
 
 
@@ -472,6 +493,8 @@ img:hover{
     .content-container5{
         flex-direction: column;
         flex-wrap: wrap;
+        max-height: 20rem;
+        min-height: 20rem;
     }
 }
 
@@ -513,7 +536,7 @@ img:hover{
 
 @media(max-width:720px){
     .content-container6{
-        min-height: 250px;
+        min-height: minmax(250px,20rem);
     }
     .content-container6 img{
         border-radius: 1rem;
